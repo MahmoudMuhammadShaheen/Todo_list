@@ -1,0 +1,130 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+ul{
+  list-style:none;  
+}
+
+
+
+
+body {
+    background: linear-gradient(120deg, #3ec0b4, #d748f9);
+    min-height: 100vh;
+    font-family: "Poppins";
+    font-size: 16px;
+}
+
+
+header {
+    font-size: 30px;
+    text-align: center;
+    margin: 200px 0 50px;
+    font-weight: 900;
+}
+
+
+form  {
+    padding: 20px;
+    width: 40%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form input {
+    width: 400px;
+    height: 50px;
+    padding: 20px;
+    border: none;
+}
+
+
+form .plus {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    transition: 0.4s;
+    border: none;
+    background-color: black;
+}
+form .plus:hover {
+    background-color: #d748f9;
+}
+
+form .plus i {
+    font-size: 30px;
+    color: wheat;
+}
+
+
+
+
+.tasks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: auto;
+    width: 400px;
+}
+
+
+.tasks ul {
+    width: 400px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.todo {
+    background-color:white;
+    padding: 10px;
+    display: flex;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: 0.5s;
+}
+
+.todo-item {
+    font-size: 30px;
+    flex: 1;
+}
+
+button {
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    margin-left: 5px;
+    cursor: pointer;
+
+}
+.complete-btn {
+    background-color: green;
+    font-size: 15px;
+    color: white;
+
+}
+.trash-btn {
+    background-color: red;
+    color: white;
+
+}
+
+.completed {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+.trached {
+    transform: translateY(50px) rotate(30deg);
+    opacity: 0;
+
+}
